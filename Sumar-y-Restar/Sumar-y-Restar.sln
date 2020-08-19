@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sumar", "Sumar\Sumar.csproj", "{BA2178F0-1F77-4A38-8C07-DF30140F5F44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sumar", "Sumar\Sumar.csproj", "{BA2178F0-1F77-4A38-8C07-DF30140F5F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSuma", "UnitTestSuma\UnitTestSuma.csproj", "{E3BCB8AE-D4D1-472F-B184-ABA17947D2DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BA2178F0-1F77-4A38-8C07-DF30140F5F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA2178F0-1F77-4A38-8C07-DF30140F5F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA2178F0-1F77-4A38-8C07-DF30140F5F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BCB8AE-D4D1-472F-B184-ABA17947D2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BCB8AE-D4D1-472F-B184-ABA17947D2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BCB8AE-D4D1-472F-B184-ABA17947D2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BCB8AE-D4D1-472F-B184-ABA17947D2DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

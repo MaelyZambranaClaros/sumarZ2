@@ -9,19 +9,18 @@ namespace Sumar.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SumaController : ControllerBase
+    public class MultiController : ControllerBase
     {
         [HttpGet]
-        public int Add(int a,int b)
+        public int Add(int a, int b)
         {
-            return a + b;
+            return a * b;
         }
 
         [HttpPost]
-        public int Add2([FromHeader]int a,[FromHeader] int b)
+        public int Add2([FromHeader] int a, [FromHeader] int b)
         {
-            return a + b;
+            return a * b;
         }
     }
-
 }
